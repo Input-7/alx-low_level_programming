@@ -15,6 +15,6 @@ int main(void)
 putchar(alph);
 		alph++;
 	}
-	putcha('\n');
+	putchar('\n');
 	return (0);
 }

@@ -8,13 +8,19 @@
  */
 int main(void)
 {
-int alph = 'a';
+	int alph = 'a';
+	int ALPH = 'A';
 
 	while (alph <= 'z')
 	{
-putchar(alph);
+		putchar(alph);
 		alph++;
 	}
-putchar('\n');
-return (0);
+	while (alph <= 'Z')
+	{
+		putchar(ALPH);
+		ALPH++;
+	}
+	putchar('\n');
+	return (0);
 }

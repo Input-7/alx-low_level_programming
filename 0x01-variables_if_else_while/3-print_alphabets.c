@@ -11,12 +11,12 @@ int main(void)
 	int alph = 'a';
 	int ALPH = 'A';
 
-	while (alph <= 'z')
+	while(alph <= 'z')
 	{
 putchar(alph);
 		alph++;
 	}
-	while (ALPH <= 'Z')
+	while(ALPH <= 'Z')
 	{
 putchar(ALPH);
 		ALPH++;
